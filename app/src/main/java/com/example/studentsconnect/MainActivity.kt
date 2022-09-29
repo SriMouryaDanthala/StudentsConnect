@@ -10,6 +10,10 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2161827 (1st commit)
     }
     fun openStudyMaterial(v: View){
         val i: Intent = Intent(this,StudyMaterialActivity::class.java)
@@ -25,8 +29,15 @@ class MainActivity : AppCompatActivity() {
         this.startActivity(i)
     }
 
+<<<<<<< HEAD
     fun openPaths(v: View){
         val i: Intent = Intent(this,PathsActivity::class.java)
         this.startActivity(i)
     }
+=======
+//    fun openPaths(v: View){
+//        val i: Intent = Intent(this,PathsActivity::class.java)
+//        this.startActivity(i)
+//    }
+>>>>>>> 2161827 (1st commit)
 }

@@ -7,6 +7,7 @@
     tools:context=".MainActivity">
 
     <Button
+<<<<<<< HEAD
         android:id="@+id/pathsB"
         android:layout_width="167dp"
         android:layout_height="122dp"
@@ -20,6 +21,8 @@
         app:layout_constraintVertical_bias="0.5" />
 
     <Button
+=======
+>>>>>>> 2161827 (1st commit)
         android:id="@+id/materialB"
         android:layout_width="171dp"
         android:layout_height="114dp"
@@ -51,7 +54,11 @@
         android:layout_height="114dp"
         android:onClick="openChatRoom"
         android:text="Interact"
+<<<<<<< HEAD
         app:layout_constraintBottom_toTopOf="@+id/pathsB"
+=======
+        app:layout_constraintBottom_toBottomOf="parent"
+>>>>>>> 2161827 (1st commit)
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
