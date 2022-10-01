@@ -6,8 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".StudyMaterialActivity">
 
-<<<<<<< HEAD
-=======
+
     <WebView
         android:id="@+id/studyMaterialWebView"
         android:layout_width="match_parent"
@@ -16,5 +15,5 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
->>>>>>> 2161827 (1st commit)
+
 </androidx.constraintlayout.widget.ConstraintLayout>
